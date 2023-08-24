@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+.continer{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-left: 230px;
+}
+.full{
+    display: flex;
+    margin-left: 30vw;
+    margin-top: 5vw;
+    
+}
+
+#stick {
+    height: 450px;
+    width: 10px;
+    background: black;
+    border-top-left-radius: 10px;
+    /* border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; */
+    /* margin-left: 100px;
+    margin-top: 20px; */
+}
+.flag{
+    /* margin-top: 5vw; */
+    box-sizing: border-box;
+    /* margin-left: 35vw;
+    position: relative; */
+    /* display: inline; */
+    position: relative;
+}
+
+
+.rect{
+    width:20vw;
+    height: 60px; 
+}
+
+#flag1{
+    background-color: orange;
+}
+#flag2{
+    background-color: white;
+}
+#flag3{
+    background-color: green;
+}
+
+
+
+#circle{
+    border: 2px solid blue;
+    width:60px;
+    height: 60px;
+    display: flex; 
+    /* align-self: center; */
+    justify-content: center;
+    margin-left: 100px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: abhi;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+}
+#vertical{
+    height: 100%;
+    width: 1px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    background: darkblue;
+}
+#vertical:nth-child(1){
+    transform: rotate(15deg);
+}
+ #vertical:nth-child(2){
+    transform: rotate(30deg);
+}
+
+#vertical:nth-child(3){
+    transform: rotate(45deg);
+}
+#vertical:nth-child(4){
+    transform: rotate(60deg);
+}
+#vertical:nth-child(5){
+    transform: rotate(75deg);
+}
+#vertical:nth-child(6){
+    transform: rotate(90deg);
+}
+#vertical:nth-child(7){
+    transform: rotate(105deg);
+}
+#vertical:nth-child(8){
+    transform: rotate(120deg);
+}
+#vertical:nth-child(9){
+    transform: rotate(135deg);
+}
+#vertical:nth-child(10){
+    transform: rotate(150deg);
+}
+#vertical:nth-child(11){
+    transform: rotate(165deg);
+}
+#vertical:nth-child(12){
+    transform: rotate(180deg);
+}
+
+
+#box1{
+    background: black;
+    width: 300px;
+    margin-left: 250px;
+    height: 40px;
+    opacity: 0.4;
+    /* border-radius: 5px; */
+
+}
+#box2{
+    background: black;
+    width: 400px;
+    margin-left: 200px;
+    height: 40px;
+    opacity: 0.4;
+    /* border-radius: 5px; */
+
+}
+#box3{
+    background: black;
+    width: 500px;
+    margin-left: 150px;
+    height: 40px;
+    opacity: 0.4;
+    /* border-radius: 5px; */
+
+}
+
+@keyframes abhi {
+    0% {
+    transform:rotate(0deg);
+}
+100%{
+    transform:rotate(360deg);
+}
+}
